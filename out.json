@@ -1,0 +1,44 @@
+{
+  "tests": 2,
+  "failures": 1,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2022-08-10T16:08:29Z",
+  "time": "0s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "bankBalance",
+      "tests": 2,
+      "failures": 1,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2022-08-10T16:08:29Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "credit",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2022-08-10T16:08:29Z",
+          "time": "0s",
+          "classname": "bankBalance"
+        },
+        {
+          "name": "debit",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2022-08-10T16:08:29Z",
+          "time": "0s",
+          "classname": "bankBalance",
+          "failures": [
+            {
+              "failure": "tfunc_test.cpp:61\nExpected equality of these values:\n  tl->getval()\n    Which is: 0\n  100",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
